@@ -1,5 +1,5 @@
-var vueCopy = require('./vue-copy.js')
+var jljDraggable = require('./jljDraggable.js')
 
-global.copy = vueCopy
+global.copy = jljDraggable
 
-window.Vue && global.Vue.use(vueCopy)
+window.Vue && global.Vue.use(jljDraggable)

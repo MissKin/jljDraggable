@@ -1,16 +1,16 @@
 {
-  "name": "vueCopy",
+  "name": "jljDraggable",
   "version": "0.1.0",
-  "description": "复制问本",
+  "description": "拖拽",
   "keyword": "headerlink",
   "author": "Aurora",
   "private": false,
-  "main": "vue-copy.js",
+  "main": "jljDraggable.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-lib": "browserify browserify-me.js -o lib/vue-copy.js  && echo Success"
+    "build-lib": "browserify browserify-me.js -o lib/jljDraggable.js  && echo Success"
   },
   "dependencies": {
     "core-js": "^3.6.4",
